@@ -3,7 +3,7 @@ import React from "react";
 export default function About({ data }) {
   if (data == null) return null;
 
-  const { name, image, bio, phone, email, resumeDownload, address } = data;
+  const { name, image, bio, phone, email, resumedownload, address } = data;
   const { city, state, zip } = address;
 
   const profilepic = "images/" + image;
@@ -39,7 +39,7 @@ export default function About({ data }) {
             </div>
             <div className="columns download">
               <p>
-                <a href={resumeDownload} className="button">
+                <a href={resumedownload} target="blank" className="button">
                   <i className="fa fa-download"></i>Download Resume
                 </a>
               </p>

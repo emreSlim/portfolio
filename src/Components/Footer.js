@@ -27,7 +27,10 @@ export default function Footer({ data }) {
                 Styleshout
               </a>{" "}
               &{" "}
-              <a title="Imran" href="#">
+              <a
+                title="Imran"
+                href="https://www.linkedin.com/in/imran-qureshi-92b822154/"
+              >
                 Imran AKA Emre
               </a>
             </li>

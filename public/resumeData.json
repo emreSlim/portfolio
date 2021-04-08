@@ -1,6 +1,6 @@
 {
   "main": {
-    "name": "Imran",
+    "name": "Imran (Emre)",
     "description": "I am a front end developer. I program and design websites, web apps and native apps using my deep understanding in javaScript and it's libraries React-JS, React-Native, jQuery, bootstrap etc.",
     "image": "profilepic.jpg",
     "bio": "Hi, my name is Imran and I am from Ghaziabad (UP) India. I have been learning frontend web developing , cross platform app developing , functional and object-oriented programming for last 1+ years and I am so passionate about how I can picture, program and write code and make website and app according to user-story. I always have been curious about how things work and how I can manipulate those processes according to my curiosity. For more details about myself, please check out my resume below.",
@@ -15,7 +15,7 @@
       "zip": "201007"
     },
     "website": "https://www.linkedin.com/in/imran-qureshi-92b822154/",
-    "resumedownload": "https://www.linkedin.com/in/imran-qureshi-92b822154/",
+    "resumedownload": "imran.pdf",
     "social": [
       {
         "name": "facebook",
@@ -93,49 +93,57 @@
         "title": "SSUP chat (web)",
         "category": "Chat web-app built myself as a project",
         "image": "01.jpg",
-        "url": "https://ssup-chat.netlify.app/"
+        "url": "https://ssup-chat.netlify.app/",
+        "video": "ssup-demo.mp4"
       },
       {
         "title": "Formula Calculator (web)",
         "category": "A simple calculator app that also takes string of formula to calculate made using React, jQuery, jQuery-ui",
         "image": "02.png",
-        "url": "https://formula-calculator.netlify.app/"
+        "url": "https://formula-calculator.netlify.app/",
+        "video": "formula-calculator-demo.mp4"
       },
       {
         "title": "Markdown Previewer (web)",
         "category": "A markdown and HTML previewer web-app made using React, jquery and jquery ui",
         "image": "03.png",
-        "url": "https://previewer.netlify.app/"
+        "url": "https://previewer.netlify.app/",
+        "video": "previewer-demo.mp4"
       },
       {
         "title": "Drum-Kit (web)",
         "category": "A drum machine kit web app built using React.js",
         "image": "04.png",
-        "url": "https://emres-drum-kit.netlify.app/"
+        "url": "https://emres-drum-kit.netlify.app/",
+        "video": "drum-kit-demo.mp4"
       },
       {
         "title": "Quotes Machine (web)",
         "category": "A quote machine web-app built using React.js that generates quotes randomly .",
         "image": "05.png",
-        "url": "https://quotes-machine.netlify.app/"
+        "url": "https://quotes-machine.netlify.app/",
+        "video": "quotes-machine-demo.mp4"
       },
       {
-        "title": "Calculator (android)",
+        "title": "Calculator (android & ios)",
         "category": "A nice calculator made using React-native.",
-        "image": "06.png",
-        "url": "https://github.com/emreSlim/formula-calculator-android"
+        "image": "sample.gif",
+        "url": "https://github.com/emreSlim/formula-calculator-android",
+        "video": "calc-demo.mp4"
       },
       {
-        "title": "TODO app (android)",
+        "title": "TODO app (android & ios)",
         "category": "A task todo app with reminder and notifications made using React-native.",
         "image": "07.png",
-        "url": "https://github.com/emreSlim/todo-list-android-app"
+        "url": "https://github.com/emreSlim/todo-list-android-app",
+        "video": "todo-demo.mp4"
       },
       {
         "title": "Clock & Stopwatch",
-        "category": "Clock and stopwatch made using pure javaScript, css, and html5.",
+        "category": "Clock and stopwatch made using vanilla javaScript, css, and html5.",
         "image": "08.png",
-        "url": "https://jsclockstopwatch.netlify.app/"
+        "url": "https://jsclockstopwatch.netlify.app/",
+        "video": "clock-stopwatch-demo.mp4"
       }
     ]
   }

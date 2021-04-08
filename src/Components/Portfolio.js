@@ -1,36 +1,20 @@
-import Zmage from "react-zmage";
 import React from "react";
+import ProjectItem from "./ProjectItem";
 
 export default function Portfolio({ data }) {
   if (data == null) return null;
 
-  const projects = data.projects.map((project, index) => {
-    let projectImage = "images/portfolio/" + project.image;
-
-    return (
-      <div key={index} className="columns portfolio-item">
-        <div className="item-wrap">
-          <Zmage alt={project.title} src={projectImage} />
-          <a style={{ textAlign: "center" }} href={project.url} target="blank">
-            {project.title}
-          </a>
-        </div>
-      </div>
-    );
-  });
+  const projects = data.projects.map((project, index) => (
+    <ProjectItem project={project} key={index} />
+  ));
 
   return (
     <section id="portfolio">
       <div className="row">
-        <div className="twelve columns collapsed">
+        <div>
           <h1>Check Out Some of My Projects.</h1>
 
-          <div
-            id="portfolio-wrapper"
-            className="bgrid-quarters s-bgrid-thirds cf"
-          >
-            {projects}
-          </div>
+          <div id="portfolio-wrapper">{projects}</div>
         </div>
       </div>
     </section>
