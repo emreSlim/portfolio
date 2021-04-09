@@ -31,7 +31,7 @@ export default function Footer({ data }) {
                 title="Imran"
                 href="https://www.linkedin.com/in/imran-qureshi-92b822154/"
               >
-                Imran AKA Emre
+                Imran (Emre)
               </a>
             </li>
           </ul>

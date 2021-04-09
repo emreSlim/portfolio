@@ -79,7 +79,7 @@ export default function ProjectItem({ project }) {
         onMouseLeave={mouseOutHandler}
       >
         <ReactPlayer
-          style={{ display: "flex" }}
+          className="project-video"
           muted
           controls={showControls}
           ref={videoRef}
