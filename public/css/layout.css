@@ -495,6 +495,8 @@ ul#nav li.current a {
 .portfolio-item-container {
   margin: 0px 20px;
   padding: 5px;
+  border-radius: 2px;
+
   background: #0003;
 }
 
@@ -510,7 +512,9 @@ ul#nav li.current a {
 }
 
 .project-title {
-  margin-top: 2px;
+  border-radius: 2px;
+
+  margin-top: 5px;
   background: #444;
   text-align: center;
   font-weight: bold;

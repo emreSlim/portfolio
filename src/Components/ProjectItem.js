@@ -5,7 +5,7 @@ import ReactPlayer from "react-player/file";
 import screenfull from "screenfull";
 
 export default function ProjectItem({ project }) {
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPopped, setIsPopped] = useState(false);
 
   const [showControls, setControls] = useState(false);
 
@@ -53,15 +53,15 @@ export default function ProjectItem({ project }) {
 
   function mouseOverHandler() {
     window.innerWidth > 440 && setSize(window.innerWidth > 600 ? 2.2 : 1.8);
-    setIsPlaying(true);
+    setIsPopped(true);
   }
   function mouseOutHandler() {
     setSize(1);
-    setTimeout(() => setIsPlaying(false), 100);
+    setTimeout(() => setIsPopped(false), 100);
   }
 
   function dblClickHandler() {
-    setIsPlaying(true);
+    setIsPopped(true);
     screenfull.request(findDOMNode(videoRef.current));
   }
 
@@ -71,8 +71,8 @@ export default function ProjectItem({ project }) {
         className="item-wrap portfolio-item video-wrapper"
         style={{
           transform: `scale(${size})`,
-          zIndex: isPlaying && 999,
-          alignSelf: isPlaying && "self-end",
+          zIndex: isPopped && 999,
+          alignSelf: isPopped && "self-end",
         }}
         onClick={dblClickHandler}
         onMouseEnter={mouseOverHandler}
@@ -86,7 +86,7 @@ export default function ProjectItem({ project }) {
           loop={true}
           height="100%"
           width="100%"
-          playing={isPlaying}
+          playing
           url={videoURL}
         />
       </div>
