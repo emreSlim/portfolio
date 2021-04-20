@@ -90,6 +90,13 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Movinterest",
+        "category": "A movie review app made using tmdb api with React Native.",
+        "image": "09.png",
+        "url": "https://github.com/emreSlim/movinterestNew",
+        "video": "movinterest-demo.mp4"
+      },
+      {
         "title": "SSUP chat (web)",
         "category": "Chat web-app built myself as a project",
         "image": "01.jpg",
